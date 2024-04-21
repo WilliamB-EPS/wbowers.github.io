@@ -1,49 +1,55 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
-
-A data-driven personal website
+Background
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I am a current twelth grade student at Eastside Preparatory School in Kirkland, WA, committed to the Johns Hopkins University Class of 2028. My academic and research interests lay at the instersection of computer science and biomedicine. Specifically, I am looking to explore AI/ML solutions to pressing problems in healthcare, such as diagnostics. I bring previous interdisciplinary CS research experience, a high level of CS and mathematics ability, and considerable leadership and collaboration experience.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
+Research Experience
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+**Investigation of the Paschen Curve for Various Electrode Geometries in IEC Fusion Devices through Monte Carlo Simulations**  
+William Bowers, Sophia Gershaft (equal contribution, alphabetical order)  
+arXiv (preprint), 2023 [[view full paper](https://arxiv.org/abs/2309.07184)]
+* **Abbreviated Abstract:** The creation of plasma is key for achieving fusion in Inertial Electrostatic Confinement fusion devices, and the conditions for such electrical breakdown are modelled by Paschen's law. However, the Paschen curve only models parallel plate configurations of electrodes and is rarely explored in the more complex electrode geometries often seen in IEC fusion devices. To bridge this gap, we study the Paschen curve for various electrode configurations by use of Monte Carlo simulations. 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+* **Research Context:** I was prompted to pursue this research by surprising results from the experimental fusion reactor setup at Eastside Preparatory School. During one of our plasma creation experiments, we recorded data that failed to fit the standard model for plasma creation. A peer and I shared these results with the project mentors, Dr. Charles Whitmer and Gunnar Mein, and we decided to launch a research project to explore further. 
 
-**Markdown generator**
+--------------
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+**Leveraging Brain-Computer Interface Technology for Mental Workload Classification**  
+William Bowers  
+International Youth Neuroscience Association Journal, 2023 [[view full paper](https://arxiv.org/abs/2309.07184)]
+* **Abbreviated Abstract:** Guided by a University of Washington Center for Neurotechnology advisor, we are currently developing a BCI project with the goal of classifying a user's mental state as "active" or "relaxed". To achieve this, we modify modifying a Neurosky Mindflex headset to connect with an Arduino microcontroller, which transmits brainwave data to a Python program using a support vector machine for classification. We achieve an 80% accuracy in distinguishing between these mental states.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+* **Research Context:** Two years ago I founded and co-led an R&D team of six students creating a brain-computer interface device. Our initial described in the above paper. Since then, we have pivoted towards a more capable device focused on recognizing motor intent of the hands via FFT analysis of the mu rhythm. We built a custom headset and custom circuitry, and we reached a prototype and wrapped up in winter 2024. I also presented on the project at the **Stanford High School Neuroscience Virtual Forum**. 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+Both of these research efforts have greatly expanded my grasp of **computational modeling, data science, machine learning, statistics, and interdisciplinary computer science research** - skills I plan to bring to my research at Hopkins.
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Education & Relevant Coursework
+======
+* **Eastside Preparatory School, Class of 2024**
+  * 4.0/4.0 unweighted cumulative GPA
+  * Testing: 1570 SAT; AP Biology: 5; AP CS A: 5; AP Calc I/II: 5
+* **Mathematics Coursework**: Calculus I, Calculus II, Linear Algebra, Differential Equations, Probably & Statistics, Elementary Number Theory
+* **Science Coursework**: Biology, Chemistry, Physics, Advanced Biology, Advanced Physics
+* **CS Coursework**: Object-Oriented Programming, Systems Progrmaming, Machine Learning & Artifical Intelligence, Algorithms & Data Structures, Functional Programming
+* **Summer Programs**: Stanford Medicine Clinical Summer Internship (2023), University of Washington Center for Neurotechnology Young Scholar's Program (2022)
+* **(Planned) Course of Study @ Hopkins**: Computer science major (focus in computational biology), computational medicine minor, music minor.
+
+Selected Projects, Internships, & Activities
+======
+
+**Biomedical chatbot project:** In an advanced ML course, I created a knowledge-embedding LLM system called MD-GPT that specializes in answering biomedical questions, such as those revolving around symptoms, treatment, diagnosis, etc. See the project repo [here](google.com).
+
+**RecycleScan app project & nonprofit:** I led eight students to create an app called RecycleScan, where users scan pieces of waste and learn how to dispose of that waste via a computer vision algorithm. I developed the backend using Amazon Cloud Services and created the AI algorithm in Tensorflow. The Kirkland City Council has been supporting the app's development for local use. Since launching the app in open beta, we've allowed users to scan and properly dispose of thousands of waste items locally. Try it [here](google.com).
+
+**Together science R&D internship:** During summer 2023, I interned at a tech startup called Together Science, where a team of developers are creating an online tool together.math where students can solve math problem. I began development of a considerably more advanced underlying [math library](linktogithubrepolol) - based off of the SymType library for python. In summer 2024, I also began work on a proprietary novel reinforcement learning algorithm harnessing graph neural networks to solve mathematical equations and create a more intelligent instant feedback system for students. 
+
+**Music:** I have been a violinist since the age of four! Since then, I studied with Andrea Talley, Marcus Talley, and Eduardo Rios - assisstant concertmaster of the Seattle Symphony. In addition to regular recitals, I perform in the Seattle Youth Symphony, where I am currently in the first violin section and was previously principal second violin.
