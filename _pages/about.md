@@ -9,7 +9,7 @@ redirect_from:
 
 Background
 ======
-I am a current twelth grade student at Eastside Preparatory School in Kirkland, WA, committed to the Johns Hopkins University Class of 2028. My academic and research interests lay at the instersection of computer science and biomedicine. Specifically, I am looking to explore AI/ML solutions to pressing problems in healthcare, such as diagnostics. I bring previous interdisciplinary CS research experience, a high level of CS and mathematics ability, and considerable leadership and collaboration experience.
+I am a current twelfth grade student at Eastside Preparatory School in Kirkland, WA, committed to the Johns Hopkins class of 2028. My academic and research interests lay at the instersection of computer science and biomedicine. Specifically, I am looking to explore AI/ML solutions to pressing problems in healthcare, such as diagnostics. I bring previous interdisciplinary CS research experience, a high level of CS and mathematics ability, and considerable leadership and collaboration experience.
 
 Research Experience
 ======
