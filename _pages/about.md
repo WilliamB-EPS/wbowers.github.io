@@ -21,8 +21,6 @@ arXiv (preprint), September, 2023 [[view full paper](https://arxiv.org/abs/2309.
 
 * **Research Context:** I was prompted to pursue this research by surprising results from the experimental fusion reactor setup at Eastside Preparatory School. During one of our plasma creation experiments, we recorded data that failed to fit the standard model for plasma creation. A peer and I shared these results with the project mentors, Dr. Charles Whitmer and Gunnar Mein, and we decided to launch a research project to explore further. 
 
---------------
-
 **Leveraging Brain-Computer Interface Technology for Mental Workload Classification**  
 William Bowers  
 International Youth Neuroscience Association Journal, November, 2023 [[view full paper](https://drive.google.com/drive/u/0/folders/1rMte2kMAicbLDzT-beIL8QT7o2eP3eAE)]
